@@ -1,0 +1,8 @@
+Con --hard, todos los cambios staged y unstaged se han perdido, porque Git restaura tanto el área de staging como el directorio de trabajo al estado exacto del commit seleccionado.
+
+Paso 1: estructura inicial del proyecto.
+Paso 2: añade módulo de login.
+Paso 3: refactoriza código de login.
+Paso 4: añade módulo de registro de usuarios.
+
+Porque git reset --hard borra permanentemente todos los cambios no commiteados, afectando staging y working directory, sin posibilidad de recuperarlos fácilmente.

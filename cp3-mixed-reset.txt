@@ -1,0 +1,15 @@
+Los commits que “retrocediste” con --soft han desaparecido temporalmente del historial de la rama, pero sus cambios siguen presentes en staging y en tu directorio, listos para modificar o volver a commitear.
+
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	cp1-historial-inicial.txt
+	cp2-soft-reset.txt
+	cp3-mixed-reset.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+--soft mantiene los cambios en staging y working directory, mientras que --mixed restablece el staging pero deja los cambios en el working directory.

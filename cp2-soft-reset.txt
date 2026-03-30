@@ -1,0 +1,20 @@
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	cp1-historial-inicial.txt
+	cp2-soft-reset.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ronny@Ubu:~/Documents/dev/actividad-6-8-git-reset-deshacer-cambios-RonnyRJ$ git log --oneline
+137300b (HEAD -> main) Paso 4: registro de usuarios (mejorado)
+a5f7093 fix cosas
+cd12f56 Paso 2: módulo de login
+b77606e Paso 1: estructura inicial
+25d2831 (origin/main, origin/HEAD) add deadline
+19e22b3 Initial commit
+
+--soft mueve el puntero de la rama a otro commit, dejando intactos los cambios en el área de staging y el directorio de trabajo, es decir, no toca los archivos ni los agrega ni quita del staging.
